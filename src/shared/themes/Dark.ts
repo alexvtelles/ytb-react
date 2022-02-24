@@ -1,5 +1,5 @@
-import { createTheme } from '@mui/material';
-import { yellow, cyan } from '@mui/material/colors';
+import { createTheme } from "@mui/material";
+import { yellow, cyan } from "@mui/material/colors";
 
 export const DarkTheme = createTheme({
   palette: {
@@ -16,8 +16,8 @@ export const DarkTheme = createTheme({
       contrastText: "#fff" ,
     },
     background: {
+      paper: "#202121" ,
       default: "#202124",
-      paper: "#303134" ,
     }
   }
 });

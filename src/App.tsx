@@ -1,9 +1,12 @@
-import { AppRoutes } from "./routes"
+import { AppRoutes } from "./routes";
+import { MenuLateral } from "./shared/components";
 
 export const App = () => {
   return (
-    <div>
-      <AppRoutes/>
-    </div>
-  )
-}
+    <>
+      <MenuLateral>
+        <AppRoutes />
+      </MenuLateral>
+    </>
+  );
+};

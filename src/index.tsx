@@ -1,11 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { App } from './App';
+import React from "react";
+import ReactDOM from "react-dom";
+import { App } from "./App";
 import { BrowserRouter } from "react-router-dom";
-import { AppThemeProvider } from './shared/contexts/ThemeContext';
-
-
-
+import { AppThemeProvider } from "./shared/contexts/ThemeContext";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -15,6 +12,5 @@ ReactDOM.render(
       </BrowserRouter>
     </AppThemeProvider>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
-
